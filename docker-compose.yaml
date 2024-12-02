@@ -3,7 +3,7 @@ version: '3.8'
 services:
   wordpress:
     image: wordpress:latest
-    container_name: wordpress1
+    container_name: wordpress
     depends_on:
       - db
     ports:
@@ -18,7 +18,7 @@ services:
 
   db:
     image: mysql:5.7
-    container_name: wordpress_db1
+    container_name: wordpress_db
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
       MYSQL_DATABASE: wordpressdb
