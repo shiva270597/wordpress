@@ -2,4 +2,4 @@
 
 added a docker-compose file
 wordpress deployment file
-check webhooks
+check webhook
